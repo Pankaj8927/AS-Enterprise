@@ -1,0 +1,14 @@
+$primary: #006769;
+$dark:#2b2a2a;
+
+$font-family-sans-serif: "Rubik", sans-serif;
+$font-family-base: $font-family-sans-serif;
+// Define custom colors
+$custom-text-color: #006769; // Coral
+
+// Use custom colors in your styles
+.text-custom {
+  color: $custom-text-color;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
